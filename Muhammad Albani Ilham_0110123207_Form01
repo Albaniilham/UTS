@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Albani Ilham - UTS </title>
+    <style>
+        table {
+    width: 30%;
+    margin-left: 20%;
+}
+
+tr, td {
+    padding: 10px;
+}
+th {
+text-align: right;
+}
+
+button {
+    background-color: cornflowerblue;
+}
+button[type=reset] {
+    background-color: red;
+}
+input {
+    border: 2px solid black;
+}
+
+select[type=text] {
+    border: 2px solid black;
+}
+textarea {
+    border: 2px solid black; 
+    width: 130%;
+}
+input[type=text] {
+    width: 100%;
+}
+body {
+    background-color: red;
+}
+    </style>
+</head>
+<body>
+    <h3>Form Registrasi</h3>
+        <form action="Form.html">
+            <table>
+                <tr>
+                    <td>Nama Masjid</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Kecamatan</td>
+                    <td>
+                        <select type="text">
+                            <option value="2">Bojong</option>
+                            <option value="2">Tugu</option>
+                            <option value="2">Cimanggis</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td>Kelurahan</td>
+                    <td>
+                        <select type="text">
+                            <option value="2">Bogor</option>
+                            <option value="2">Depok</option>
+                            <option value="2">Bandung</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Deskripsi Fasilitas</td>
+                    <td><textarea cols="30" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Nama Pengurus DKM</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>No HP / Telpon : </td>
+                    <td><input type="number"></td>
+                </tr>
+                <tr>
+                    <td>Email : </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Web : </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Alamat Lengkap : </td>
+                    <td><textarea cols="30" rows="3"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Latitude,Langitude : </td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Simpan</button></td>
+                    <td><button type="reset">Update</button></td>
+                </tr>
+        
+            </table>
+        </form>
+</body>
+</html>
